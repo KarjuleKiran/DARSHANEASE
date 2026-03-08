@@ -1,0 +1,128 @@
+.navbar {
+    background: rgba(26, 13, 0, 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px 0;
+    border-bottom: 3px solid #ff7a00;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    font-family: 'Crimson Pro', serif;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.logo-icon {
+    background: var(--gradient-gold);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(255, 184, 0, 0.4);
+}
+
+.logo-text {
+    color: #fff;
+    background: -webkit-linear-gradient(#FFB800, #FF7A00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    background: var(--card-bg);
+    color: var(--primary-gold);
+    transform: translateY(-2px);
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-btn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 24px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background: var(--card-bg);
+    border-color: var(--primary-gold);
+    color: var(--primary-gold);
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--card-bg);
+    padding: 8px 16px;
+    border-radius: 30px;
+    border: 1px solid var(--border-color);
+    color: var(--primary-gold);
+}
+
+.logout-btn {
+    background: none;
+    border: none;
+    color: #ff5e5e;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 10px rgba(255, 94, 94, 0.3);
+}

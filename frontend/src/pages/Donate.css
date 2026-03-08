@@ -1,0 +1,48 @@
+.donate-page {
+    padding: 60px 0;
+    min-height: 100vh;
+    background-color: var(--dark-bg);
+    display: flex;
+    align-items: center;
+}
+
+.auth-select {
+    width: 100%;
+    background: var(--dark-bg);
+    border: 1px solid var(--border-color);
+    padding: 15px 15px 15px 45px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.auth-select:focus {
+    border-color: var(--primary-gold);
+}
+
+.auth-textarea {
+    width: 100%;
+    background: var(--dark-bg);
+    border: 1px solid var(--border-color);
+    padding: 15px 15px 15px 45px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    min-height: 100px;
+    resize: none;
+}
+
+.auth-textarea:focus {
+    border-color: var(--primary-gold);
+}
+
+.auth-card.glass-card {
+    border: 1px solid rgba(255, 184, 0, 0.1);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
